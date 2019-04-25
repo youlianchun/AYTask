@@ -1,0 +1,16 @@
+PODS:
+  - AYTask (0.1.0)
+
+DEPENDENCIES:
+  - AYTask (from `../`)
+
+EXTERNAL SOURCES:
+  AYTask:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AYTask: 4a28426e7d298a84677db0d471db43fa4261293b
+
+PODFILE CHECKSUM: d205ece0345d3d8ecc899bab7007444b0bc70935
+
+COCOAPODS: 1.7.0.beta.3

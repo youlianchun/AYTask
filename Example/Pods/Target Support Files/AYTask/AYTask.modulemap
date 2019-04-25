@@ -1,0 +1,6 @@
+framework module AYTask {
+  umbrella header "AYTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

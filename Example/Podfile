@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AYTask_Example' do
+  pod 'AYTask', :path => '../'
+
+  target 'AYTask_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

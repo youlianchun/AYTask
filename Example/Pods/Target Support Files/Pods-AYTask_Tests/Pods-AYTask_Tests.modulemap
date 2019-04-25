@@ -1,0 +1,6 @@
+framework module Pods_AYTask_Tests {
+  umbrella header "Pods-AYTask_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

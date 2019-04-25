@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014AA10E053ED63D1181C2C79D3961B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		1A21C410FE25B8742E6A08F99F4B0D33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		1C8DB28C235C467A9ACCDC0F0778F7B9 /* Pods-AYTask_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A06F453D233F57DF7512AA093FA517EC /* Pods-AYTask_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E99F8E707FBE4716C56C9EDBACE4FA2 /* AYTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E68FB7757F763C1A7DCF5079E7BD03A /* AYTaskQueue.m */; };
+		6888B31444A5A8FE0EB48F1C403D34BA /* Pods-AYTask_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4404682D6DFB0517ACD286F979FE1A /* Pods-AYTask_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AFAAB35EB4AF1E11B24EA5DC6A7448E /* AYTaskContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93B6784996B5B8DCB36AC1C0C676E9 /* AYTaskContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF7AB243FE34467BA7A76979637F0C9 /* Pods-AYTask_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F52D28CC306C83961384699EA11B98D6 /* Pods-AYTask_Example-dummy.m */; };
+		926FDC1FC4AE502159D1DC9D8C47BA0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		94E380CF95FD96790DDF05036AA40C9B /* AYTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FB1EBAF62A9301DC2A56A0E59FF20A /* AYTask-dummy.m */; };
+		96B7E77B9D27B4B8CEF0D8FE3CD716DB /* AYTaskQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D794AAAE428560BAFC2577443325422C /* AYTaskQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A468A3272326D2F06655C3965CDF6DA7 /* AYCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1255E82E5474B6594862BAAFCE3D7 /* AYCarrier.m */; };
+		DB6D511C805CE449FBCB96C95E0857BD /* AYTaskContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CCFADE981F560EE83342CC94377429 /* AYTaskContainer.m */; };
+		DC67C28253BF3C37B33211DE0328A26D /* AYCarrier.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B945008EE6B68C6FEC8CD05AEF80CF /* AYCarrier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF1A2F0B75EEEC46A5424C0CB9FD226D /* AYTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA44A2A97C6E7623500468B94457480A /* AYTask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCBD29D73C8E0D308E1C9C608D815F63 /* Pods-AYTask_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A75F7EB32017D131E4AD6148541D5 /* Pods-AYTask_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A70135E5DEBE5E2EF96FB303DEAC2F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF34A69068AACB27CA8173A301A8995;
+			remoteInfo = AYTask;
+		};
+		C022003DBD3E4B3FA1A3DCD05A9936D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA40EBEF1001720E86B27D27B31814E;
+			remoteInfo = "Pods-AYTask_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02476D6405A8555A8F1D011F8FF58E03 /* Pods_AYTask_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYTask_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E68FB7757F763C1A7DCF5079E7BD03A /* AYTaskQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AYTaskQueue.m; sourceTree = "<group>"; };
+		0F94F40D985C76AFD1F1CC9ED97AEDD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1E2210B2AEA522A3ED1A5F0530FDE420 /* Pods-AYTask_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYTask_Tests.modulemap"; sourceTree = "<group>"; };
+		286E1CC933424B0581E2B7548402EA5E /* AYTask-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AYTask-Info.plist"; sourceTree = "<group>"; };
+		3223C587BB027CE416471CE09CF04C17 /* AYTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AYTask.modulemap; sourceTree = "<group>"; };
+		4204A13CF9B9C78B98ED89C6ADD56B1A /* Pods-AYTask_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYTask_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		461C8CFEA6D918A6A709C17DEA53E46C /* Pods-AYTask_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYTask_Example-Info.plist"; sourceTree = "<group>"; };
+		4E4404682D6DFB0517ACD286F979FE1A /* Pods-AYTask_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYTask_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4F82A4415E71CBACF2023CB42116A7B5 /* AYTask.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYTask.xcconfig; sourceTree = "<group>"; };
+		51BBDCCC4B769F13D7356A1ACAB627B4 /* Pods-AYTask_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYTask_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		57AE960A9A6E1BA4D7EDFBACA7E31A61 /* AYTask-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYTask-prefix.pch"; sourceTree = "<group>"; };
+		5D1A4170AAD1AFF30C13AD53D93EDF90 /* Pods-AYTask_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYTask_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BB8879A0438275734728B7125B8500F /* Pods-AYTask_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYTask_Example.modulemap"; sourceTree = "<group>"; };
+		7385258BBE874DAB3A783BAA8C657DBB /* AYTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D1CE12EA36EEFE15146B9D927BE2D7 /* Pods_AYTask_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYTask_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF08EF8531E5AC3A63DCDBB8B2D0F8E /* Pods-AYTask_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYTask_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7C1EB9C5105194B83174B140683F9BB6 /* Pods-AYTask_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYTask_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		844A75F7EB32017D131E4AD6148541D5 /* Pods-AYTask_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYTask_Tests-dummy.m"; sourceTree = "<group>"; };
+		85B945008EE6B68C6FEC8CD05AEF80CF /* AYCarrier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AYCarrier.h; sourceTree = "<group>"; };
+		9B70DA36DB0EAFC59CC7CB1E9B675CAB /* Pods-AYTask_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYTask_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A06F453D233F57DF7512AA093FA517EC /* Pods-AYTask_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYTask_Example-umbrella.h"; sourceTree = "<group>"; };
+		A24CDE3E42AEB868067A4AC0B92CE493 /* AYTask.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AYTask.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		A7CE7E57A10D5172E785FCC7C797548E /* Pods-AYTask_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYTask_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABA1255E82E5474B6594862BAAFCE3D7 /* AYCarrier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AYCarrier.m; sourceTree = "<group>"; };
+		B1F6C8020E9DF5594E1EC443C3982740 /* Pods-AYTask_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYTask_Tests-Info.plist"; sourceTree = "<group>"; };
+		C2575E632173C5C6C4704E0C160756D0 /* Pods-AYTask_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYTask_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C45C13C7A6527F5EE58EEC634D2F53B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D794AAAE428560BAFC2577443325422C /* AYTaskQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AYTaskQueue.h; sourceTree = "<group>"; };
+		E4FB1EBAF62A9301DC2A56A0E59FF20A /* AYTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYTask-dummy.m"; sourceTree = "<group>"; };
+		E5CCFADE981F560EE83342CC94377429 /* AYTaskContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AYTaskContainer.m; sourceTree = "<group>"; };
+		E84B5DE5CC7D57DC4E8A1958150BDBF2 /* Pods-AYTask_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYTask_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F52D28CC306C83961384699EA11B98D6 /* Pods-AYTask_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYTask_Example-dummy.m"; sourceTree = "<group>"; };
+		FA44A2A97C6E7623500468B94457480A /* AYTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYTask-umbrella.h"; sourceTree = "<group>"; };
+		FF93B6784996B5B8DCB36AC1C0C676E9 /* AYTaskContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AYTaskContainer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A67AE552160909F2958DF2EA70936F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014AA10E053ED63D1181C2C79D3961B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390F36D8F6FC7FD8F955130DA95C2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A21C410FE25B8742E6A08F99F4B0D33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE923A45B30170879407A00542106EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926FDC1FC4AE502159D1DC9D8C47BA0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171E65F1F756453C1EC70CE1F3C1BA20 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A24CDE3E42AEB868067A4AC0B92CE493 /* AYTask.podspec */,
+				0F94F40D985C76AFD1F1CC9ED97AEDD8 /* LICENSE */,
+				C45C13C7A6527F5EE58EEC634D2F53B0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		25C3BE8FC6DDB62E3EC0F9A85E12870C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7385258BBE874DAB3A783BAA8C657DBB /* AYTask.framework */,
+				02476D6405A8555A8F1D011F8FF58E03 /* Pods_AYTask_Example.framework */,
+				77D1CE12EA36EEFE15146B9D927BE2D7 /* Pods_AYTask_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4278F63D16EE8839717B1601B1303966 /* AYTaskQueue */ = {
+			isa = PBXGroup;
+			children = (
+				85B945008EE6B68C6FEC8CD05AEF80CF /* AYCarrier.h */,
+				ABA1255E82E5474B6594862BAAFCE3D7 /* AYCarrier.m */,
+				D794AAAE428560BAFC2577443325422C /* AYTaskQueue.h */,
+				0E68FB7757F763C1A7DCF5079E7BD03A /* AYTaskQueue.m */,
+			);
+			name = AYTaskQueue;
+			path = AYTask/Classes/AYTaskQueue;
+			sourceTree = "<group>";
+		};
+		49EBCA2704551296A41BA3C075ECB000 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75B3473D2A69BE8E5AC793AEC381D923 /* Pods-AYTask_Example */,
+				4C48FA18FE958BD0657FEEEBAB08A589 /* Pods-AYTask_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C48FA18FE958BD0657FEEEBAB08A589 /* Pods-AYTask_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E2210B2AEA522A3ED1A5F0530FDE420 /* Pods-AYTask_Tests.modulemap */,
+				7C1EB9C5105194B83174B140683F9BB6 /* Pods-AYTask_Tests-acknowledgements.markdown */,
+				5D1A4170AAD1AFF30C13AD53D93EDF90 /* Pods-AYTask_Tests-acknowledgements.plist */,
+				844A75F7EB32017D131E4AD6148541D5 /* Pods-AYTask_Tests-dummy.m */,
+				B1F6C8020E9DF5594E1EC443C3982740 /* Pods-AYTask_Tests-Info.plist */,
+				4E4404682D6DFB0517ACD286F979FE1A /* Pods-AYTask_Tests-umbrella.h */,
+				A7CE7E57A10D5172E785FCC7C797548E /* Pods-AYTask_Tests.debug.xcconfig */,
+				C2575E632173C5C6C4704E0C160756D0 /* Pods-AYTask_Tests.release.xcconfig */,
+			);
+			name = "Pods-AYTask_Tests";
+			path = "Target Support Files/Pods-AYTask_Tests";
+			sourceTree = "<group>";
+		};
+		5D01FC91F3FAA2418CFB28048BC9AF52 /* AYTaskContainer */ = {
+			isa = PBXGroup;
+			children = (
+				FF93B6784996B5B8DCB36AC1C0C676E9 /* AYTaskContainer.h */,
+				E5CCFADE981F560EE83342CC94377429 /* AYTaskContainer.m */,
+			);
+			name = AYTaskContainer;
+			path = AYTask/Classes/AYTaskContainer;
+			sourceTree = "<group>";
+		};
+		5D4619748A2CFA6F83B9536319F883AE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCF48D20784D6DD3C21857F270CE7A44 /* AYTask */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E922705972387957F36460EB40A6ADF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3223C587BB027CE416471CE09CF04C17 /* AYTask.modulemap */,
+				4F82A4415E71CBACF2023CB42116A7B5 /* AYTask.xcconfig */,
+				E4FB1EBAF62A9301DC2A56A0E59FF20A /* AYTask-dummy.m */,
+				286E1CC933424B0581E2B7548402EA5E /* AYTask-Info.plist */,
+				57AE960A9A6E1BA4D7EDFBACA7E31A61 /* AYTask-prefix.pch */,
+				FA44A2A97C6E7623500468B94457480A /* AYTask-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AYTask";
+			sourceTree = "<group>";
+		};
+		75B3473D2A69BE8E5AC793AEC381D923 /* Pods-AYTask_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6BB8879A0438275734728B7125B8500F /* Pods-AYTask_Example.modulemap */,
+				4204A13CF9B9C78B98ED89C6ADD56B1A /* Pods-AYTask_Example-acknowledgements.markdown */,
+				9B70DA36DB0EAFC59CC7CB1E9B675CAB /* Pods-AYTask_Example-acknowledgements.plist */,
+				F52D28CC306C83961384699EA11B98D6 /* Pods-AYTask_Example-dummy.m */,
+				E84B5DE5CC7D57DC4E8A1958150BDBF2 /* Pods-AYTask_Example-frameworks.sh */,
+				461C8CFEA6D918A6A709C17DEA53E46C /* Pods-AYTask_Example-Info.plist */,
+				A06F453D233F57DF7512AA093FA517EC /* Pods-AYTask_Example-umbrella.h */,
+				51BBDCCC4B769F13D7356A1ACAB627B4 /* Pods-AYTask_Example.debug.xcconfig */,
+				7BF08EF8531E5AC3A63DCDBB8B2D0F8E /* Pods-AYTask_Example.release.xcconfig */,
+			);
+			name = "Pods-AYTask_Example";
+			path = "Target Support Files/Pods-AYTask_Example";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5D4619748A2CFA6F83B9536319F883AE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				25C3BE8FC6DDB62E3EC0F9A85E12870C /* Products */,
+				49EBCA2704551296A41BA3C075ECB000 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCF48D20784D6DD3C21857F270CE7A44 /* AYTask */ = {
+			isa = PBXGroup;
+			children = (
+				5D01FC91F3FAA2418CFB28048BC9AF52 /* AYTaskContainer */,
+				4278F63D16EE8839717B1601B1303966 /* AYTaskQueue */,
+				171E65F1F756453C1EC70CE1F3C1BA20 /* Pod */,
+				5E922705972387957F36460EB40A6ADF /* Support Files */,
+			);
+			name = AYTask;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9063F3F6ED96D18AAB5679816A0A89AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6888B31444A5A8FE0EB48F1C403D34BA /* Pods-AYTask_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946DCEBC2FD673C4DD130972B42FCFB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8DB28C235C467A9ACCDC0F0778F7B9 /* Pods-AYTask_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91C3C0A3AC497E34A3A7C0CC6298B97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC67C28253BF3C37B33211DE0328A26D /* AYCarrier.h in Headers */,
+				DF1A2F0B75EEEC46A5424C0CB9FD226D /* AYTask-umbrella.h in Headers */,
+				7AFAAB35EB4AF1E11B24EA5DC6A7448E /* AYTaskContainer.h in Headers */,
+				96B7E77B9D27B4B8CEF0D8FE3CD716DB /* AYTaskQueue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AC4255DD9A9489EB5FEB9E5C4FF3115 /* Pods-AYTask_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655A5906F022695E82608B7C6AFEF33D /* Build configuration list for PBXNativeTarget "Pods-AYTask_Tests" */;
+			buildPhases = (
+				9063F3F6ED96D18AAB5679816A0A89AD /* Headers */,
+				1247B7558E27D5B91DB799CB7CB58D11 /* Sources */,
+				9390F36D8F6FC7FD8F955130DA95C2F5 /* Frameworks */,
+				E026BD8104CCA0C1AB8A3F3E7330097C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A891C8BFEADBACB50F36D26603C24226 /* PBXTargetDependency */,
+			);
+			name = "Pods-AYTask_Tests";
+			productName = "Pods-AYTask_Tests";
+			productReference = 77D1CE12EA36EEFE15146B9D927BE2D7 /* Pods_AYTask_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2FA40EBEF1001720E86B27D27B31814E /* Pods-AYTask_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B804A7F078C058BAB44C5DAC996144 /* Build configuration list for PBXNativeTarget "Pods-AYTask_Example" */;
+			buildPhases = (
+				946DCEBC2FD673C4DD130972B42FCFB6 /* Headers */,
+				F9D0304B301955D82EF0299786B7516B /* Sources */,
+				CE923A45B30170879407A00542106EB8 /* Frameworks */,
+				6E7AA5FD2BE735C275C96F8AA38E69FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00F72788E18025063600CF6F5506B91C /* PBXTargetDependency */,
+			);
+			name = "Pods-AYTask_Example";
+			productName = "Pods-AYTask_Example";
+			productReference = 02476D6405A8555A8F1D011F8FF58E03 /* Pods_AYTask_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDF34A69068AACB27CA8173A301A8995 /* AYTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD47E6387C02CBA1BA28A7B0ADAEBC4 /* Build configuration list for PBXNativeTarget "AYTask" */;
+			buildPhases = (
+				D91C3C0A3AC497E34A3A7C0CC6298B97 /* Headers */,
+				B497FB4004F7FD5D109FCDAB7E6619DC /* Sources */,
+				22A67AE552160909F2958DF2EA70936F /* Frameworks */,
+				62C65EC1C74EAE2C03BEC7BF18A566BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYTask;
+			productName = AYTask;
+			productReference = 7385258BBE874DAB3A783BAA8C657DBB /* AYTask.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 25C3BE8FC6DDB62E3EC0F9A85E12870C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF34A69068AACB27CA8173A301A8995 /* AYTask */,
+				2FA40EBEF1001720E86B27D27B31814E /* Pods-AYTask_Example */,
+				0AC4255DD9A9489EB5FEB9E5C4FF3115 /* Pods-AYTask_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62C65EC1C74EAE2C03BEC7BF18A566BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E7AA5FD2BE735C275C96F8AA38E69FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E026BD8104CCA0C1AB8A3F3E7330097C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1247B7558E27D5B91DB799CB7CB58D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBD29D73C8E0D308E1C9C608D815F63 /* Pods-AYTask_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B497FB4004F7FD5D109FCDAB7E6619DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A468A3272326D2F06655C3965CDF6DA7 /* AYCarrier.m in Sources */,
+				94E380CF95FD96790DDF05036AA40C9B /* AYTask-dummy.m in Sources */,
+				DB6D511C805CE449FBCB96C95E0857BD /* AYTaskContainer.m in Sources */,
+				5E99F8E707FBE4716C56C9EDBACE4FA2 /* AYTaskQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D0304B301955D82EF0299786B7516B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF7AB243FE34467BA7A76979637F0C9 /* Pods-AYTask_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00F72788E18025063600CF6F5506B91C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AYTask;
+			target = EDF34A69068AACB27CA8173A301A8995 /* AYTask */;
+			targetProxy = A70135E5DEBE5E2EF96FB303DEAC2F03 /* PBXContainerItemProxy */;
+		};
+		A891C8BFEADBACB50F36D26603C24226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AYTask_Example";
+			target = 2FA40EBEF1001720E86B27D27B31814E /* Pods-AYTask_Example */;
+			targetProxy = C022003DBD3E4B3FA1A3DCD05A9936D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		184375F5F6FC37F78496377104ABC0E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F82A4415E71CBACF2023CB42116A7B5 /* AYTask.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYTask/AYTask-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYTask/AYTask-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYTask/AYTask.modulemap";
+				PRODUCT_MODULE_NAME = AYTask;
+				PRODUCT_NAME = AYTask;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		294F0EE47FB09DE6E89AC584C8B5DC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51BBDCCC4B769F13D7356A1ACAB627B4 /* Pods-AYTask_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYTask_Example/Pods-AYTask_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYTask_Example/Pods-AYTask_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3117F56CA66DFCECDA0A45F7401E71EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2575E632173C5C6C4704E0C160756D0 /* Pods-AYTask_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYTask_Tests/Pods-AYTask_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYTask_Tests/Pods-AYTask_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7C175B63A964ECB23B5F00B48485FCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF08EF8531E5AC3A63DCDBB8B2D0F8E /* Pods-AYTask_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYTask_Example/Pods-AYTask_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYTask_Example/Pods-AYTask_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97F605961553A362AE6AD882F5085730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F82A4415E71CBACF2023CB42116A7B5 /* AYTask.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYTask/AYTask-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYTask/AYTask-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYTask/AYTask.modulemap";
+				PRODUCT_MODULE_NAME = AYTask;
+				PRODUCT_NAME = AYTask;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B0ECDF1458456FBB359BA7A66D2E6F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CE7E57A10D5172E785FCC7C797548E /* Pods-AYTask_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYTask_Tests/Pods-AYTask_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYTask_Tests/Pods-AYTask_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08B804A7F078C058BAB44C5DAC996144 /* Build configuration list for PBXNativeTarget "Pods-AYTask_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294F0EE47FB09DE6E89AC584C8B5DC01 /* Debug */,
+				7C175B63A964ECB23B5F00B48485FCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655A5906F022695E82608B7C6AFEF33D /* Build configuration list for PBXNativeTarget "Pods-AYTask_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0ECDF1458456FBB359BA7A66D2E6F2 /* Debug */,
+				3117F56CA66DFCECDA0A45F7401E71EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD47E6387C02CBA1BA28A7B0ADAEBC4 /* Build configuration list for PBXNativeTarget "AYTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184375F5F6FC37F78496377104ABC0E3 /* Debug */,
+				97F605961553A362AE6AD882F5085730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
